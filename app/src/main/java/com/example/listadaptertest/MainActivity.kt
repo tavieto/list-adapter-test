@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
         val userList = mutableListOf<User>()
 
-        for (item in 1..10) {
+        for (item in 1..50) {
             userList.addAll(
                 listOf(
                     User(
