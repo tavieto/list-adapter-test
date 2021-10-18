@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.DiffUtil
 * achando que os nomes das funções não faziam sentido, mas a lógica é
 * que "a primeira função verifica se o conteúdo é igual, se for, chame
 * a função que trata os dados se forem iguais, se o conteúdo não for igual,
-* apenas renderiza em tela e não entra na função areContentsTheSame.
+* apenas renderiza em tela e não entra na função areContentsTheSame".
 * */
 
 class DataDiffCallback : DiffUtil.ItemCallback<User>() {
